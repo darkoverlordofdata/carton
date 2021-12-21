@@ -187,10 +187,10 @@ public class ToolchainSystem {
       ubuntuSuffix = "ubuntu18.04"
     } else if releaseData.contains("DISTRIB_RELEASE=20.04") {
       ubuntuSuffix = "ubuntu20.04"
-    } else if (releaseData.contains("DISTRIB_ID=elementary" 
+    } else if (releaseData.contains("DISTRIB_ID=elementary") 
             && releaseData.contains("DISTRIB_RELEASE=6")) {
       ubuntuSuffix = "ubuntu20.04"
-    } else if (releaseData.contains("DISTRIB_ID=elementary" 
+    } else if (releaseData.contains("DISTRIB_ID=elementary")
             && releaseData.contains("DISTRIB_RELEASE=6.1")) {
       ubuntuSuffix = "ubuntu20.04"
     } else {
